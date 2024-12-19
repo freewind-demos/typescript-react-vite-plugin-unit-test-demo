@@ -1,9 +1,9 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
+import Hello from './Hello'
 
-import { Hello } from './Hello'
-
-ReactDOM.render(
-  <Hello/>,
-  document.getElementById('root')
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <Hello />
+  </React.StrictMode>
 )
