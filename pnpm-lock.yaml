@@ -16,7 +16,7 @@ importers:
         version: 18.3.1(react@18.3.1)
       ts-node:
         specifier: 10.3.0
-        version: 10.3.0(@swc/core@1.4.11(@swc/helpers@0.5.8))(@types/node@16.11.0)(typescript@5.4.3)
+        version: 10.3.0(@swc/core@1.4.11(@swc/helpers@0.5.8))(@types/node@16.11.0)(typescript@5.7.2)
     devDependencies:
       '@babel/generator':
         specifier: ^7.26.3
@@ -43,8 +43,8 @@ importers:
         specifier: ^4.2.1
         version: 4.3.4(vite@5.4.11(@types/node@16.11.0)(lightningcss@1.24.1))
       typescript:
-        specifier: 5.4.3
-        version: 5.4.3
+        specifier: 5.7.2
+        version: 5.7.2
       vite:
         specifier: ^5.1.6
         version: 5.4.11(@types/node@16.11.0)(lightningcss@1.24.1)
@@ -862,8 +862,8 @@ packages:
   tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
-  typescript@5.4.3:
-    resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1628,7 +1628,7 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  ts-node@10.3.0(@swc/core@1.4.11(@swc/helpers@0.5.8))(@types/node@16.11.0)(typescript@5.4.3):
+  ts-node@10.3.0(@swc/core@1.4.11(@swc/helpers@0.5.8))(@types/node@16.11.0)(typescript@5.7.2):
     dependencies:
       '@cspotcode/source-map-support': 0.7.0
       '@tsconfig/node10': 1.0.8
@@ -1642,7 +1642,7 @@ snapshots:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.4.3
+      typescript: 5.7.2
       yn: 3.1.1
     optionalDependencies:
       '@swc/core': 1.4.11(@swc/helpers@0.5.8)
@@ -1650,7 +1650,7 @@ snapshots:
   tslib@2.6.2:
     optional: true
 
-  typescript@5.4.3: {}
+  typescript@5.7.2: {}
 
   update-browserslist-db@1.1.1(browserslist@4.24.2):
     dependencies:
